@@ -1,17 +1,15 @@
 Folder contains codes for TCI submission 2022. 
-(ktslr, L+S-Otazo, L+S-Lin author provided code is modified for reconstruction of single coil (instead of multi coil). We used same parameters as author provided.
+
 
 =================================================================================
 
-Comparison of ktslr, L+S-Otazo, L+S-Lin, altGDMin-MRI and altGDMin-MRI2.
+Effect of various steps in altGDmin-MRI.
 
-To generate Table III and Table V results:
+To generate Table II:
 
-1.  Run the mirt-main/setup.m: L+S-Lin code requires the Matlab version of the Michigan Image Reconstruction Toolbox (MIRT).
+1. Load the .mat files in the Dataset folder (Copy and paste the .mat files in the same folder contating the files).
 
-2. Load the .mat files in the Dataset folder (Copy and paste the .mat files in the same folder contating the files).
-
-3.  Run Main_comparison_of_algorithm.m: This run all the 5 algorithms and calculate NMSE (Normalized Mean Square Error), Time required and Similarity index and save these results in Comparison_error.txt [Error(Time)] amd Comparison_sim.txt [sim(Time)].
+2.  Run Main_altGDmin_various_steps.m: This run only Mean, only altGDmin, Mean+altGDmin, altGDmin-MRI and calculate NMSE (Normalized Mean Square Error), Time required for each step and save these results in Comparison.txt [Errpr(Time)].
 
 
 ===================================================================================
@@ -22,4 +20,4 @@ For questions contact sbabu@iastate.edu, namrata@iastate.edu
 
 If you are using our code please cite our paper: 'Fast Low Rank column-wise Compressive Sensing for Accelerated Dynamic MRI' authr's: Silpa Babu, Wahidul Alam, Sajan Goud Lingala, Namrata Vaswani.
 
-This code is written by Silpa Babu (the code structure is followed from Seyedehsara (Sara) Nayer).
+
