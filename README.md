@@ -18,6 +18,6 @@ The folder "Dataset" contains the MRI used in this paper (except long-speech seq
 
 For questions contact sbabu@iastate.edu, namrata@iastate.edu
 
-If you are using our code please cite our paper: 'Fast Low Rank column-wise Compressive Sensing for Accelerated Dynamic MRI' authr's: Silpa Babu, Wahidul Alam, Sajan Goud Lingala, Namrata Vaswani.
+If you are using our code please cite our paper: 'Fast Low Rank column-wise Compressive Sensing for Accelerated Dynamic MRI' author's: Silpa Babu, Wahidul Alam, Sajan Goud Lingala, Namrata Vaswani.
 
 
