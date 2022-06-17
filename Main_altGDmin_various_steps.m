@@ -100,17 +100,6 @@ for jj = 1:1:numel(filenames)
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         fprintf(fid, '%s(%d) & %8.4f (%5.2f)& %8.4f (%5.2f)& %8.4f (%5.2f)& %8.4f (%5.2f) \n', name, radial(ii),Error_mean,Time_mean,Error_GD,Time_GD,Error_GD_mean,Time_GD_mean,Error_MRI,Time_MRI);
     end
-    
-    
-    
-    
-    
-    %     p=[filename,radial;Error_GD_Sparse;Time_GD_Sparse];
-    %     fid=fopen('AltGDMin_LSM.txt','w');
-    %     fprintf(fid,'  %s(%s)     %s  \n','name','radial','AltGDMin');
-    %     %     fprintf(fid,'  %s(%s)  &  %s  &  %s  &   %s  \n',name,'radial','k-t-SLR','L+S','AltGDMin');
-    %     fprintf(fid,'  %s(%d)     & %8.4f (%2.4f) \n',p);
-    %     fclose(fid);
 end
 fclose(fid);
 
